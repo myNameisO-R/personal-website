@@ -1,11 +1,16 @@
-<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Personal Website</title>
     <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="styles.css" />
+    <style>
+      .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+    </style>
   </head>
   <body>
     <header>
@@ -22,9 +27,14 @@
     <main>
       <section id="about">
         <h2>About Me</h2>
+        <img
+          src="me.jpg"
+          alt="a cat with glasses on the PC"
+          class="right-image"
+        />
         <p>
           Hello! I'm Orna, a passionate web developer. I enjoy languages,
-          cultures and travelling.
+          cultures, and traveling.
         </p>
       </section>
 
@@ -50,14 +60,16 @@
       <section id="contact">
         <h2>Contact Me</h2>
         <p>
-          If you'd like to get in touch, feel free to reach out via email at xxx
-          or connect with me on [LinkedIn, Twitter, etc.].
+          If you'd like to get in touch, feel free to reach out via email at
+          <a href="mailto:kisinnr1@gmail.com">kisinnr1@gmail.com</a>
+          or connect with me on GitHub:
+          <a href="https://github.com/myNameisO-R">myNameisO-R</a>.
         </p>
       </section>
     </main>
 
     <footer>
-      <p>&copy; 2024 Orna. All rights reserved.</p>
+      <p>&copy; 2025 Orna. All rights reserved.</p>
     </footer>
   </body>
 </html>
