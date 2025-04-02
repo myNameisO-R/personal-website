@@ -20,11 +20,11 @@ ul {
 }
 
 li {
-  margin: 5px;
+  margin: 0;
   display: list-item;
   border: 2px;
-  border-radius: 2px;
-  padding: 2%;
+  border-radius: 5px;
+  padding: 10%;
 }
 
 .programming-stack li {
@@ -47,9 +47,18 @@ li {
   padding: 10px;
 }
 
-.tools-stack {
-  background-color: rgb(207, 90, 149);
-  border: 2px solid rgb(red, green, blue);
-  border-radius: 5px;
+.tools-stack li {
+  background-color: rgb(161, 98, 163);
+
   padding: 10px;
+}
+
+.h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 18px;
+  margin: 10px 0;
 }
